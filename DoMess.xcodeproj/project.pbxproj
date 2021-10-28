@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D49C5A272938E40064F722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D49C59272938E40064F722 /* AppDelegate.swift */; };
+		05D49C5C272938E40064F722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D49C5B272938E40064F722 /* SceneDelegate.swift */; };
+		05D49C5E272938E40064F722 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D49C5D272938E40064F722 /* LoginViewController.swift */; };
+		05D49C61272938E40064F722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D49C5F272938E40064F722 /* Main.storyboard */; };
+		05D49C63272938E70064F722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D49C62272938E70064F722 /* Assets.xcassets */; };
+		05D49C66272938E70064F722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D49C64272938E70064F722 /* LaunchScreen.storyboard */; };
+		05D49C6E27293C9F0064F722 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05D49C6D27293C9F0064F722 /* GoogleService-Info.plist */; };
+		85115AB4C9B4ADB8FFB6A560 /* Pods_DoMess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258AE7A7B5AC051261560E1 /* Pods_DoMess.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D49C56272938E40064F722 /* DoMess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoMess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D49C59272938E40064F722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05D49C5B272938E40064F722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		05D49C5D272938E40064F722 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		05D49C60272938E40064F722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05D49C62272938E70064F722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05D49C65272938E70064F722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05D49C67272938E70064F722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D49C6D27293C9F0064F722 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1258AE7A7B5AC051261560E1 /* Pods_DoMess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoMess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2DFE4483DFDE4C30A7882A /* Pods-DoMess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoMess.release.xcconfig"; path = "Target Support Files/Pods-DoMess/Pods-DoMess.release.xcconfig"; sourceTree = "<group>"; };
+		EB62D4DD291F6D6F5D20BD21 /* Pods-DoMess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoMess.debug.xcconfig"; path = "Target Support Files/Pods-DoMess/Pods-DoMess.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D49C53272938E40064F722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85115AB4C9B4ADB8FFB6A560 /* Pods_DoMess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D49C4D272938E40064F722 = {
+			isa = PBXGroup;
+			children = (
+				05D49C58272938E40064F722 /* DoMess */,
+				05D49C57272938E40064F722 /* Products */,
+				B7DCDD889C498B1C4C19A87D /* Pods */,
+				33BF1BEEBF12A2EF41187B8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05D49C57272938E40064F722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D49C56272938E40064F722 /* DoMess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05D49C58272938E40064F722 /* DoMess */ = {
+			isa = PBXGroup;
+			children = (
+				05D49C6D27293C9F0064F722 /* GoogleService-Info.plist */,
+				05D49C59272938E40064F722 /* AppDelegate.swift */,
+				05D49C5B272938E40064F722 /* SceneDelegate.swift */,
+				05D49C5D272938E40064F722 /* LoginViewController.swift */,
+				05D49C5F272938E40064F722 /* Main.storyboard */,
+				05D49C62272938E70064F722 /* Assets.xcassets */,
+				05D49C64272938E70064F722 /* LaunchScreen.storyboard */,
+				05D49C67272938E70064F722 /* Info.plist */,
+			);
+			path = DoMess;
+			sourceTree = "<group>";
+		};
+		33BF1BEEBF12A2EF41187B8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1258AE7A7B5AC051261560E1 /* Pods_DoMess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7DCDD889C498B1C4C19A87D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB62D4DD291F6D6F5D20BD21 /* Pods-DoMess.debug.xcconfig */,
+				BA2DFE4483DFDE4C30A7882A /* Pods-DoMess.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05D49C55272938E40064F722 /* DoMess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D49C6A272938E70064F722 /* Build configuration list for PBXNativeTarget "DoMess" */;
+			buildPhases = (
+				850CB75426297D7CD57A89CB /* [CP] Check Pods Manifest.lock */,
+				05D49C52272938E40064F722 /* Sources */,
+				05D49C53272938E40064F722 /* Frameworks */,
+				05D49C54272938E40064F722 /* Resources */,
+				AE8EA78AF1ECF83ACDD525EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoMess;
+			productName = DoMess;
+			productReference = 05D49C56272938E40064F722 /* DoMess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05D49C4E272938E40064F722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					05D49C55272938E40064F722 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 05D49C51272938E40064F722 /* Build configuration list for PBXProject "DoMess" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05D49C4D272938E40064F722;
+			productRefGroup = 05D49C57272938E40064F722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05D49C55272938E40064F722 /* DoMess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05D49C54272938E40064F722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D49C6E27293C9F0064F722 /* GoogleService-Info.plist in Resources */,
+				05D49C66272938E70064F722 /* LaunchScreen.storyboard in Resources */,
+				05D49C63272938E70064F722 /* Assets.xcassets in Resources */,
+				05D49C61272938E40064F722 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		850CB75426297D7CD57A89CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoMess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8EA78AF1ECF83ACDD525EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoMess/Pods-DoMess-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoMess/Pods-DoMess-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoMess/Pods-DoMess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D49C52272938E40064F722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D49C5E272938E40064F722 /* LoginViewController.swift in Sources */,
+				05D49C5A272938E40064F722 /* AppDelegate.swift in Sources */,
+				05D49C5C272938E40064F722 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05D49C5F272938E40064F722 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D49C60272938E40064F722 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05D49C64272938E70064F722 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D49C65272938E70064F722 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05D49C68272938E70064F722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05D49C69272938E70064F722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05D49C6B272938E70064F722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB62D4DD291F6D6F5D20BD21 /* Pods-DoMess.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6QV359KA7;
+				INFOPLIST_FILE = DoMess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domoci.domess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05D49C6C272938E70064F722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2DFE4483DFDE4C30A7882A /* Pods-DoMess.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6QV359KA7;
+				INFOPLIST_FILE = DoMess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domoci.domess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D49C51272938E40064F722 /* Build configuration list for PBXProject "DoMess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D49C68272938E70064F722 /* Debug */,
+				05D49C69272938E70064F722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D49C6A272938E70064F722 /* Build configuration list for PBXNativeTarget "DoMess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D49C6B272938E70064F722 /* Debug */,
+				05D49C6C272938E70064F722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05D49C4E272938E40064F722 /* Project object */;
+}
